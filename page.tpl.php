@@ -1,36 +1,38 @@
-<?php
-?>
- <?php print render($page['header']); ?>
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Touch One | Home </title>
+    <link rel="stylesheet" href="css/core.css" media="all">
+    <link rel="stylesheet" href="css/home.css" media="all">
+    <script type="text/javascript" src="js/html5.js"></script>
+</head>
 
+<body>
 	<div id="Wrapper">
     	<div id="Container">
-        	<div id="header">
-        <div id="logo-floater">
-        <?php if ($logo || $site_title): ?>
-          <?php if ($title): ?>
-            <div id="branding"><strong><a href="<?php print $front_page ?>">
-            <?php if ($logo): ?>
-              <img src="<?php print $logo ?>" alt="<?php print $site_name_and_slogan ?>" title="<?php print $site_name_and_slogan ?>" id="logo" />
-            <?php endif; ?>
-            <?php print $site_html ?>
-            </a></strong></div>
-          <?php else: /* Use h1 when the content title is empty */ ?>
-            <h1 id="branding"><a href="<?php print $front_page ?>">
-            <?php if ($logo): ?>
-              <img src="<?php print $logo ?>" alt="<?php print $site_name_and_slogan ?>" title="<?php print $site_name_and_slogan ?>" id="logo" />
-            <?php endif; ?>
-            <?php print $site_html ?>
-            </a></h1>
-        <?php endif; ?>
-        <?php endif; ?>
-        </div>
-
-       
-      </div>
+        	<a href="index.html" id="MainLogo"></a>
         	<header id="MainHeader">
             	<nav id="MainNav">
-                	 <?php if ($primary_nav): print $primary_nav; endif; ?>
-        <?php if ($secondary_nav): print $secondary_nav; endif; ?>
+                	<ul>
+                    	<li>
+                        	<a class="transform" href="#">Home</a>
+                        </li>
+                    	<li>
+                        	<a class="transform" href="#">About Us</a>
+                        </li>
+                    	<li>
+                        	<a class="transform" href="#">Web Services</a>
+                        </li>
+                    	<li>
+                        	<a class="transform" href="#">Branding</a>
+                        </li>
+                    	<li>
+                        	<a class="transform" href="#">Interactive</a>
+                        </li>
+                    	<li>
+                        	<a class="transform" href="#">Contact Us</a>
+                        </li>
+                    </ul>
                 </nav>
                 <div>
                 	<form method="get" id="SiteSearch">
@@ -41,85 +43,105 @@
                     </form>
                 </div>
             </header>
-            <?php if ($page['site_slideshow']): ?>
             <section id="HomeBanner">
-            	<?php print render($page['sidebar_second']); ?>
-                
+            	<ul>
+                	<li><img src="images/banners/HomeBanner.jpg" name="Your business, Our service"></li>
+                </ul>
             </section>
-             <?php endif; ?>
-            
-            <?php if ($page['top_first']): ?>
             <section id="OurServices">
-            				 
-        <div id="sidebar-first" class="sidebar">
-				<?php print render($page['top_first']); ?>
-                </div>
-      <?php endif; ?>
-      
-       <?php if ($page['top_second']): ?>
-        <div id="sidebar-second" class="sidebar">
-				<?php print render($page['top_second']); ?>
-                </div>
-      <?php endif; ?>
-                
-                 <?php if ($page['top_third']): ?>
-        <div id="sidebar-third" class="sidebar">
-				<?php print render($page['top_third']); ?>
-                </div>
-      <?php endif; ?>
-                
-                
+            	<ul>
+                	<li id="PortalService">
+                    	<p>
+                        We build portals that cater to all kinds of industries and organisations.
+                        </p>
+                        <a href="#">more..</a>
+                    </li>
+                	<li id="DrupalService">
+                    	<h3>Drupal Shop</h3>
+                    	<p>We develop  a wide range of applications using Drupal</p>
+                        <a href="#">more..</a>
+                    </li>
+                	<li id="OpenERPService">
+                    	<p>
+                        We deliver OpenERP deployments for clients of all sizes. <a href="#">more..</a>
+
+                        </p>
+                    </li>
+                	<li id="WebDesignService">
+                    	<h3>Website Design</h3>
+                    	<p>
+                        Website design is an art and we go the extra mile to excell at it. 
+                        </p>
+                        <a href="#">more..</a>
+                    </li>
+                </ul>
             </section>
             <section id="Touch1Article">
-            
-             <?php if ($page['sidebar_first']): ?>
-        <div id="sidebar-first" class="sidebar">
-          <?php print render($page['sidebar_first']); ?>
-        </div>
-        <div id="GlobalImage"></div>
-        
-      <?php endif; ?>
-            	
-          <article id="WebsiteAsAService">
-                	<?php print $breadcrumb; ?>
-          <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
-          <a id="main-content"></a>
-          <?php if ($tabs): ?><div id="tabs-wrapper" class="clearfix"><?php endif; ?>
-          <?php print render($title_prefix); ?>
-          <?php if ($title): ?>
-            <h1<?php print $tabs ? ' class="with-tabs"' : '' ?>><?php print $title ?></h1>
-          <?php endif; ?>
-          <?php print render($title_suffix); ?>
-          <?php if ($tabs): ?><?php print render($tabs); ?></div><?php endif; ?>
-          <?php print render($tabs2); ?>
-          <?php print $messages; ?>
-          <?php print render($page['help']); ?>
-          <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-          <div class="clearfix">
-            <?php print render($page['content']); ?>
-                    
+            	<div id="GlobalImage"></div>
+                <article id="WebsiteAsAService">
+                	<h2>TOUCH1</h2>
+                    <h3>Website-as-a-Service</h3>
+                    <p>
+                    Drupalflex is launching the website-as-a-service model as a spin-off to its already full-featured turnkey 
+                    Drupal web hosting service. Adding to an already flexible hosting system which scales effortlessly to use, 
+                    this service grants new businesses, with little to no capital, the freedom to launch as the doors of their 
+                    business opens and the flexibility to scale with the business. Expansions in operations and unique needs 
+                    are taken into consideration and are plugged in as required.
+                    </p>
                 </article>
-               
-                	 <?php if ($page['sidebar_second']): ?>
-        <div id="sidebar-second" class="sidebar">
-          <?php print render($page['sidebar_second']); ?>
-        </div> <div id="GetStartedContainer"></div>
-      <?php endif; ?>
+                <div id="GetStartedContainer">
+                	<ul>
+                    	<li id="GetStarted">
+                        	<a class="transform" href="#">Get Started</a>
+                        </li>
+                    	<li id="HowItWorks">
+                        	<a class="transform" href="#">How it Works</a>
+                        </li>
+                    	<li id="Flexibility">
+                        	<a class="transform" href="#">Flexibility</a>
+                        </li>
+                    </ul>
                 </div>
             </section>
-        
+        </div>
         <footer id="MainFooter">
         	<div>
             	<div>
                 	<nav>
-                    	<?php print render($page['footer']); ?>
+                    	<ul>
+                        	<li>
+                            	<a href="#">Home</a>
+                            </li>
+                        	<li>
+                            	<a href="#">Services</a>
+                            </li>
+                        	<li>
+                            	<a href="#">Portfolio</a>
+                            </li>
+                        	<li>
+                            	<a href="#">About Us</a>
+                            </li>
+                        	<li>
+                            	<a href="#">Web Services</a>
+                            </li>
+                        	<li>
+                            	<a href="#">Contact Us</a>
+                            </li>
+                        </ul>
                     </nav>
                     <small>
-                    	
+                    	<p>© 2012 Touch1 Global <a href="#">Terms of service</a><a href="#">Privacy policy</a></p>
                     </small>
                 </div>
-                <?php print render($page['social']); ?>
+                <div>
+                	<p>Connect with us:</p>
+                    <a href="#" id="Twitter"></a>
+                    <a href="#" id="Facebook"></a>
+                    <a href="#" id="Linkedin"></a>
+                    <a href="#" id="Email"></a>
+                </div>
             </div>
         </footer>
     </div>
-
+</body>
+</html>
