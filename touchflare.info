@@ -1,0 +1,41 @@
+name = Touch Flare
+description = A multi-column theme which can be configured to modify colors and switch between fixed and fluid width layouts.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = css/core.css
+stylesheets[all][] = css/home.css
+stylesheets[print][] = print.css
+settings[garland_width] = fluid
+
+regions[left]           = Left sidebars
+regions[right]          = Right sidebar
+regions[right2]         = Bottom Right sidebar
+regions[right3]         = Bottom Right sidebar 2
+regions[right4]         = RSS sidebar
+regions[search_box]     = Search Box
+regions[navigation]     = Navigation bar
+regions[navLinks]       = Home Page Navigation bar
+regions[link_block_1]   = First Link Block
+regions[link_block_2]   = Second Link Block
+regions[link_block_3]   = Third Link Block
+
+regions[page_banner]    = Page Banner
+regions[newsreel]      	= News Scroller
+regions[newsreel2]      = News Scroller 2
+content_banner
+regions[context_nav]    = Context Navigation
+regions[content_banner] = Content Banner
+regions[content]    	= Contents
+regions[bottom_content] = Bottom Content
+regions[social_network] = Social Network Content
+regions[header]         = Header
+regions[footer_blast]   = Footer Menus
+regions[footer]         = Footer
+regions[closure] 		= Closure
+
+; Information added by drupal.org packaging script on 2012-02-01
+version = "7.12"
+project = "drupal"
+datestamp = "1328134560"
+

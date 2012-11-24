@@ -1,0 +1,227 @@
+/* CSS Document */
+
+#HomeBanner {
+	height: 296px;
+	width: 100%;
+	margin: 0 0 11px;
+}
+
+#HomeBanner ul {
+	width: 100%;
+	height: 100%;
+}
+
+#HomeBanner ul li {
+	width: 100%;
+	height: 100%;
+}
+
+#OurServices {
+	height: 99px;
+	width: 100%;
+	margin-bottom: 12px;
+	font-family: 'MyriadPro'
+}
+
+#OurServices h3 {
+	font-size: 18px;
+	margin: 0;
+	color: #fff;
+	font-weight: normal;
+}
+
+#OurServices p,
+#OurServices a {
+	font-size: 14px;
+	margin: 0;
+	display: inline-block;
+	line-height: 14px;
+}
+
+#OurServices ul {
+	width: 100%;
+	height: 100%;
+}
+
+#OurServices ul li {
+	float: left;
+	height: 100%;
+	width: 236px;
+	border-radius: 4px;
+}
+
+#OurServices ul li + li {
+	margin-left: 12px;
+}
+
+#PortalService {
+	padding: 50px 6px 0 7px;
+	height: 49px !important;
+	width: 223px !important;
+	background: url(../images/backgrounds/PortalServiceBckgrd.png) no-repeat;
+}
+
+#PortalService p {
+	color: #fff;
+}
+
+#PortalService a {
+	color: #fc7f1a;
+}
+
+#DrupalService {
+	padding: 11px 5px 0 73px;
+	height: 88px !important;
+	width: 158px !important; 
+	background: url(../images/backgrounds/DrupalService.png) no-repeat;
+}
+
+#DrupalService p {
+	color: #ffdbbf;
+}
+
+#DrupalService a {
+	color: #0076c4;
+}
+
+#OpenERPService {
+	padding: 57px 15px 0 12px;
+	height: 42px !important;
+	width: 209px !important;
+	background: url(../images/backgrounds/OpenERPBckgrd.png) no-repeat;
+}
+
+#OpenERPService p {
+	color: #fff;
+}
+
+#OpenERPService a {
+	color: #a8edff;
+}
+
+#WebDesignService {
+	padding: 13px 7px 0 90px;
+	height: 86px !important;
+	width: 139px !important;
+	background: url(../images/backgrounds/WebDesignServiceBckgrd.png) no-repeat;
+}
+
+#WebDesignService p {
+	color: #c8c8c8;
+}
+
+#WebDesignService a {
+	color: #c78bc5;
+}
+
+#Touch1Article {
+	height: 329px;
+	width: 100%;
+	border: solid #fff;
+	border-width: 0 0 1px;
+	background: url(../images/backgrounds/Touch1Bckgrd.png);
+	background: -moz-linear-gradient(top, #fff, #ececec, #e1e1e1);
+	background: -webkit-linear-gradient(top, #fff, #ececec, #e1e1e1);
+	background: -ms-linear-gradient(top, #fff, #ececec, #e1e1e1);
+	background: -o-linear-gradient(top, #fff, #ececec, #e1e1e1);
+	background: linear-gradient(top, #fff, #ececec, #e1e1e1);
+}
+
+#Touch1Article > div {
+	float: left;
+	clear: both;
+}
+
+
+#GlobalImage {
+	height: 100%;
+	width: 241px;
+	background: url(../images/imgs/GlobalImage.png) no-repeat 16px 57px;
+}
+#WebsiteAsAService {
+	width: 423px;
+	height: 299px;
+	float: left;
+	padding: 30px 11px 0;
+}
+
+#WebsiteAsAService h2 {
+	font-family: 'MyriadPro';
+	font-size: 30px;
+	color: #313131;
+	width: 207px;
+	height: 26px;
+	margin: 0;
+	border: solid #b0aeae;
+	border-width: 0 0 1px;
+}
+
+#WebsiteAsAService h3 {
+	color: #fb7d16;
+	font: bold 24px 'MyriadPro';
+	margin: 4px 0 0;
+}
+
+#WebsiteAsAService p {
+	color: #7f7e7e;
+	text-align: justify;
+	line-height: 24px !important;
+	font: normal 14px Arial, Helvetica, sans-serif;
+}
+
+#GetStartedContainer {
+	width: 264px;
+	height: 145px;
+	padding: 0 15px;
+	margin-top: 100px;
+}
+
+#GetStartedContainer ul {
+	width: 100%;
+	height: 100%;
+}
+
+#GetStartedContainer ul li {
+	margin-top: 11px;
+	width: 252px;
+	height: 37px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+#GetStartedContainer ul li a {
+	width: 100%;
+	height: 100%;
+	text-indent: 65px;
+	line-height: 37px !important;
+	color: #fff;
+	font: normal 18px 'MyriadPro';
+}
+
+#GetStartedContainer ul li a:hover {
+	text-decoration: none;
+}
+
+#GetStarted a {
+	background: #393737 url(../images/icons/GetStartedIcon.png) no-repeat 6px center;
+}
+
+#GetStarted a:hover {
+	background-color: #111010;
+}
+
+#HowItWorks a {
+	background: #83ab28 url(../images/icons/HowItWorksIcon.png) no-repeat 6px center;
+}
+
+#HowItWorks a:hover {
+	background-color: #68891c
+}
+
+#Flexibility a {
+	background: #56a9f0 url(../images/icons/FlexibilityIcon.png) no-repeat 6px center;
+}
+
+#Flexibility a:hover {
+	background-color: #327fc1;
+}
