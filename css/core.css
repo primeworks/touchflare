@@ -202,6 +202,7 @@ ul {
 	height: 111px;
 	width: 100%;
 	background: #708e2a;
+	clear: both;
 }
 
 #MainFooter > div {
