@@ -28,9 +28,8 @@
         	<header id="MainHeader">
             	<nav id="MainNav">
                 
-                 <?php if ($main_menu): print $main_menu; endif; ?>
-        <?php if ($secondary_menu): print $secondary_menu; endif; ?>
-                
+                 <?php if ($main_nav): print $main_nav; endif; ?>
+                      
                 	
                 </nav>
                 <div>
