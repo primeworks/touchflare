@@ -140,7 +140,7 @@
 }
 #WebsiteAsAService {
 	width: 423px;
-	height: 299px;
+	/* [disabled]height: 299px; */
 	float: left;
 	padding: 30px 11px 0;
 }
